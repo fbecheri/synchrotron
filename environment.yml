@@ -1,0 +1,6 @@
+name: alba-env
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - scipy
