@@ -1,4 +1,4 @@
-# Your Project Name
+# Synchrotron radiation simulation
 
 A python module to simulate synchrotron radiation.
 Distributed with venv or conda
