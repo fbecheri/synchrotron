@@ -163,6 +163,12 @@ class SynchrotronSimulation:
         # Fast Fourier
         col = 2
         y = fft(I_array)
+        #yy = fft(I_array)
+        #l = len(yy)
+        #print(l)
+        #ll =( l - l//10)//2
+        #print(ll)
+        #y = yy[ll:-ll] #FB
         t_sent_A = t_array[N] #-N * dt_degree / power_factor
         t_sent_B = t_array[N+1] #(N+1) * dt_degree / power_factor
         freq = np.fft.fftfreq(len(y), t_sent_B - t_sent_A)
